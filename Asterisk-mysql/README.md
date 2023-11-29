@@ -26,6 +26,7 @@ OR
 bash 9-install_completa.sh
 ```
 
-- #[Configuração do BD](https://github.com/dnsrodrigues/Asterisk-20LTS/blob/main/configuracao_de_bd.md)<br />
+- #[Configuração do BD](https://github.com/dnsrodrigues/asterisk/blob/main/Asterisk-mysql/configuracao_bd.md)<br />
 
-- #[Configuração do Asterisk](https://github.com/dnsrodrigues/Asterisk-20LTS/blob/main/configuracao_de_arq_asterisk.md)<br/>
+- #[Configuração do Asterisk](https://github.com/dnsrodrigues/asterisk/blob/main/Asterisk-mysql/configuracao_asterisk.md)<br/>
+
