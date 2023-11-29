@@ -72,6 +72,12 @@ vim /etc/asterisk/logger.conf
 ``` 
 <br/>
 
+- Restart no asterisk:
+``` 
+systemctl restart asterisk.service
+``` 
+<br/>
+
 - Visualizar log full:
 ``` 
 less /var/log/asterisk/full.log
