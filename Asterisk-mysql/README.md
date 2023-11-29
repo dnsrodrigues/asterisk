@@ -11,7 +11,7 @@ apt install curl -y
 
 - Arquivos de configuração e scripts sh de instalação:<br/>
 ``` 
-cd /tmp/ && curl -fsSL https://github.com/dnsrodrigues/Asterisk-20LTS/releases/download/configfiles/asterisk.tar -o asterisk.tar && tar xvf asterisk.tar 
+cd /tmp/ && curl -fsSL https://github.com/dnsrodrigues/asterisk/releases/download/config-asterisk-bd/asterisk.tar -o asterisk.tar && tar xvf asterisk.tar 
 ```
 
 ```
