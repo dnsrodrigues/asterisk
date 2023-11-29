@@ -4,7 +4,6 @@
 ``` 
 cd /tmp/
 mv asterisk/*.conf /etc/asterisk/
-mv asterisk/*.ini /etc/
 rm -rf asterisk.tar
 rm -rf asterisk/
 ``` 
