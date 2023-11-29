@@ -109,6 +109,5 @@ find /var/lib/asterisk//sounds//pt-br/ -type d -exec chmod 0775 {} \;
 
 - Converter formato de todos os audios para o formato dos codecs necessarios:
 ``` 
-wget https://raw.githubusercontent.com/Mazuco/Asterisk/master/convert.sh ; bash convert.sh
 wget https://raw.githubusercontent.com/dnsrodrigues/asterisk/main/Asterisk-file/02%20-%20arquivos-config-asterisk/%23arquivos-config/convert.sh ; bash convert.sh
 ``` 
