@@ -1,0 +1,13 @@
+[Unit]
+Description=Asterisk PBX and telephony daemon
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/var/run/asterisk/asterisk.pid
+ExecStart=/usr/sbin/asterisk -C /etc/asterisk/asterisk.conf
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -TERM $MAINPID
+
+[Install]
+WantedBy=multi-user.target
